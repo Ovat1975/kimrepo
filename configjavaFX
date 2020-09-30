@@ -1,0 +1,16 @@
+#check location java
+readlink -f $(which java) 
+nano /etc/environment
+
+#add location to environment
+JAVA_HOME="javalocation"
+
+#enalbe source environment
+source /etc/environment
+
+#check location
+echo $JAVA_HOME
+
+
+#run java 
+java -jar file.jar
