@@ -1,4 +1,4 @@
-# kimrepo
+# Auto Install LEMP STACK (LINUX NGINX MARIADB PHP-FPM)
 Untuk Menjalankan auto install LEMP
 harus di direktori /opt/
 
