@@ -3,7 +3,7 @@
 #open message
 echo "untuk menghindari terjadinya error pastikan OS dalam keadaan fresh install"
 echo "Pastikan OS anda adalah Centos 7"
-sleep 7
+sleep 20
 
 echo "disable selinux & firewalld"
 # disable selinux & firewalld
