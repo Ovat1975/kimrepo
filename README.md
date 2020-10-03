@@ -6,7 +6,7 @@ $ cd /opt/
 
 $ git clone https://github.com/FosterG4/kimrepo.git
 
-$ cd ~/kimrepo
+$ cd /opt/kimrepo/
 
 $ chmod +x setfirst.sh
 
