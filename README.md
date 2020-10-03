@@ -2,6 +2,13 @@
 Untuk Menjalankan auto install LEMP
 harus di direktori /opt/
 
+Support :
+Operating system CENTOS 7
+
+
+
+$ yum install git
+
 $ cd /opt/
 
 $ git clone https://github.com/FosterG4/kimrepo.git
