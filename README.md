@@ -13,3 +13,4 @@ $ chmod +x setfirst.sh
 $ sh setfirst.sh atau ./setfirst.sh
 
 
+#GAANG
