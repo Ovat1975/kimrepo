@@ -4,8 +4,10 @@ harus di direktori /opt/
 
 Support :
 Operating system CENTOS 7
-
-
+Support :
+BTC : 1Ag7ZwRNvMbCjXoWqDWHQQU68s1FsaV87D
+ETH : 0xb2383c12692f0f4b79379a7acd178e23fb0128b2
+paypal : dikkyhardian@gmail.com
 
 $ yum install git
 
