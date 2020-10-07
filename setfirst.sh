@@ -282,8 +282,8 @@ echo "$(tput setaf 1)instalasi telah selesai$(tput sgr 0)"
 echo "$(tput setaf 1)pastikan semua servie berjalan dengan baik$(tput sgr 0)"
 echo "$(tput setaf 1)check port yang berjalan netstat -ntlp$(tput sgr 0)"
 
-echo "$(tput setaf 1)jangan ngeluh kalo ada error, usaha usaha cok$(tput sgr 0)"
-echo "$(tput setaf 1)benerin dewek$(tput sgr 0)"
+echo "$(tput setaf 1)lapor jika ada error$(tput sgr 0)"
+echo "$(tput setaf 1)Thanks for using This Script$(tput sgr 0)"
 
 echo "=============================================================================================="
 echo "$(tput setaf 1)Gaang$(tput sgr 0)"
