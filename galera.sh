@@ -33,27 +33,34 @@ ProtectHome=true
 and undefine those variables (setting it to false won't work)
 ProtectSystem=
 ProtectHome=
-
+===========================================================
 And reload daemon
 systemctl daemon-reload
+===========================================================
 
 MYSQL CULSTER
 Grant all on master with spesific ip on (CMS SERVER)
-User        : 4pl1k451n1ch 
-Password    : n3w4kur4t$%^
+User        : user
+Password    : password
+
+===========================================================
 
 CREATE DIR DATA ON HOME ALL SLAVE
 
 mkdir -p /home/mysql/data/
 chown --reference=/var/lib/mysql /home/mysql/data/
 chmod --reference=/var/lib/mysql /home/mysql/data/
+===========================================================
 
 MASTER CONFIG
 [root@cms ~]# cat /etc/my.cnf.d/server.cnf
+===========================================================
 
 # this is read by the standalone daemon and embedded servers
 [server]
+===========================================================
 
+#Server 1
 # this is only for the mysqld standalone daemon
 [mysqld]
 log_error=/var/log/mariadb.log
@@ -75,7 +82,9 @@ wsrep_sst_method=rsync
 wsrep_node_address="ip address 1"
 wsrep_node_name="galera-master"
 wsrep_sst_auth=password here
+===========================================================
 
+#Server 2
 # this is only for embedded server
 [embedded]
 
@@ -114,6 +123,8 @@ wsrep_node_address="IP address 2”
 wsrep_node_name="galera-slave1”
 wsrep_sst_auth=password here
 
+===========================================================
+
 # this is only for embedded server
 [embedded]
 
@@ -123,3 +134,4 @@ wsrep_sst_auth=password here
 
 START SLAVE
 type service start mysql
+===========================================================
