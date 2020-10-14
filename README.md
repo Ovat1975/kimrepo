@@ -1,6 +1,9 @@
-# Auto Install LEMP STACK (LINUX NGINX MARIADB PHP-FPM)
+# Auto Install LEMP STACK (LINUX NGINX MARIADB PHP-FPM) & Tunning Kernel, etc
+
 Untuk Menjalankan auto install LEMP
+
 harus di direktori /opt/
+
 Operating system CENTOS 7
 
 
@@ -64,6 +67,33 @@ $ chmod +x dependencies.sh
 $ sh dependencies.sh atau ./dependencies.sh
 
 =========================================================================================
+
+
+#Add swap Centos 7 & tunning Kernel
+
+pastikan tidak ada swap sebelummnya
+
+cara cek swap sudah ada atau belum
+
+$ free -m
+
+#Jika tidak ada swap dan OS anda Centos 7 langsung saja jalankan command
+
+$ $ cd /opt/
+
+$ git clone https://github.com/FosterG4/kimrepo.git
+
+$ cd /opt/kimrepo/
+
+$ chmod +x tune.sh
+
+$ sh tune.sh atau ./tune.sh
+
+
+
+
+
+
 
 
 
