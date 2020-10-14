@@ -21,7 +21,7 @@ $ sh setfirst.sh atau ./setfirst.sh
 
 =========================================================================================
 
-Untuk install php-fpm saja
+#Untuk install php-fpm saja
 
  yum install git
 
@@ -37,7 +37,7 @@ $ sh php-fpm.sh atau ./php-fpm.sh
 
 =========================================================================================
 
-Untuk install mariadb saja
+#Untuk install mariadb saja
 
  yum install git
 
@@ -52,7 +52,8 @@ $ chmod +x mariadb.sh
 $ sh mariadb.sh atau ./mariadb.sh
 
 =========================================================================================
-Untuk install dependencies saja
+
+#Untuk install dependencies saja
 
  yum install git
 
