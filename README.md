@@ -102,6 +102,18 @@ $ sh tune.sh atau ./tune.sh
 
 
 =========================================================================================
+#Install JAVA SDK UBUNTU OR CENTOS
+
+$ $ cd /opt/
+
+$ git clone https://github.com/FosterG4/kimrepo.git
+
+$ cd /opt/kimrepo/
+
+$ chmod +x javasdk.sh
+
+$ sh javasdk.sh atau ./javasdk.sh
+
 =========================================================================================
 =========================================================================================
 
