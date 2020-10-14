@@ -1,5 +1,14 @@
 # Auto Install LEMP STACK, malware & virus scanner, Tunning Kernel, add swap, and etc
 
+=====================================================================================
+
+Setup Multi Database server untuk wordpress
+
+https://github.com/FosterG4/hyperdb
+#baca tutorial di link  https://github.com/FosterG4/hyperdb
+
+
+======================================================================================
 
 untuk scan malware & virus
 
