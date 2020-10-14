@@ -39,7 +39,7 @@ systemctl daemon-reload
 ===========================================================
 
 MYSQL CULSTER
-Grant all on master with spesific ip on (CMS SERVER)
+Grant all on master with spesific ip on
 User        : user
 Password    : password
 
