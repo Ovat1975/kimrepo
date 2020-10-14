@@ -1,6 +1,15 @@
-# Auto Install LEMP STACK (LINUX NGINX MARIADB PHP-FPM) & Tunning Kernel, etc
+# Auto Install LEMP STACK, malware & virus scanner, Tunning Kernel, add swap, and etc
 
-Untuk Menjalankan auto install LEMP
+
+untuk scan malware & virus
+
+https://github.com/FosterG4/kimrepo/tree/master/scanner
+
+
+
+========================================================================================
+
+#Untuk Menjalankan auto install LEMP
 
 harus di direktori /opt/
 

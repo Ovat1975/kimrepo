@@ -15,11 +15,13 @@ Full scan (recommended):
 --------------------------------
 
 1. copy all content of /ai-bolit/ folder into the root folder of web site
+   example cp /home/gaang/GPN/kimrepo/scanner/ai-bolit/* /home/ or/var/www/public_html/
 
 2. run server command line though ssh
 
 3. execute the following command
 
+ Run :
    php ai-bolit.php
 
    In order to run scanner in "paranoid" mode use arguments
