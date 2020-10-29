@@ -1,0 +1,4 @@
+create database dbname;
+grant all privileges on dbname.* TO 'cloudgscboxid'@'localhost' identified by 'passwordhere';
+grant all privileges on dbname.* TO 'cloudgscboxid'@'%' identified by 'passwordhere';
+flush privileges;
