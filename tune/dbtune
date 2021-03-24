@@ -1,0 +1,17 @@
+# Set buffer pool size to 50-80% of your computer's memory
+innodb_buffer_pool_size=12048M
+innodb_additional_mem_pool_size=1512M
+#
+# Set the log file size to about 25% of the buffer pool size
+max_connections = 20000
+join_buffer_size  = 10192M
+table_open_cache = 50000
+key_buffer_size=534217728
+read_buffer_size=531072
+
+
+tmp_table_size = 1526M
+max_heap_table_size = 1526M
+slow_query_log = 0
+long_query_time = 5
+
