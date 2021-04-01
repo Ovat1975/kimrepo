@@ -20,6 +20,8 @@ To run Wowza™ Transcoder on Windows Server 2008 or 2012 the following componen
 - .NET Framework 3.5.1
 - Desktop Experience
 
+SERIAL : ET1A4-CyFTr-erYEd-pAAwE-dzut4-BkNZZ-6fdJKYCMTUDV
+
 Linux 64-bit:
 sudo chmod +x WowzaStreamingEngine-4.5.0-linux-x64-installer.run
 sudo ./WowzaStreamingEngine-4.5.0-linux-x64-installer.run
